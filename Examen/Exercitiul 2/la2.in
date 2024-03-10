@@ -1,0 +1,15 @@
+[Sigma]
+a
+b
+[Gama]
+a
+b
+e
+[States]
+q0,s,f
+q1
+[Trans]
+q0,a,e,q0,e,e,0
+q1,a,e,q1,e,e,0
+q0,b,e,q1,e,b,0
+q1,b,b,q0,b,e,1
