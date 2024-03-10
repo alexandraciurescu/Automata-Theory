@@ -1,0 +1,14 @@
+[Vars]
+V1,*
+V2
+V3
+V4
+[Sigma]
+s1
+s2
+s3
+[Rules]
+V1->s1,s2
+V2->s1,s2
+V4->s2
+V3->V1,s1
