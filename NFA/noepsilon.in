@@ -1,0 +1,17 @@
+[Sigma]
+a
+b
+c
+d
+[States]
+q1
+q2,f
+q3,s
+q4
+q5,f
+[Actions]
+q3;a;q1
+q3;a;q5
+q1;b;q2
+q2;a;q1
+q5;d;q4
